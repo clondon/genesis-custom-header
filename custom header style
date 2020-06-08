@@ -1,0 +1,82 @@
+$color-site-black:  #23282d;
+$headerfooter_color_bg: #054e98;
+
+.genesis-skip-link {
+  margin: 0;
+ }
+ .genesis-skip-link li {
+  height: 0;
+  width: 0;
+  list-style: none;
+  float: right;
+ }
+
+.header-container {
+  background-color: #054e98;
+
+}
+.header_logo {
+  display: grid;
+  background-color: #054e98;
+  color: #f0f9ee;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.header-block {
+  display: grid;
+  max-width: 1280px;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  grid-auto-flow: dense;
+
+
+
+.dove_img {
+    grid-area: dove_img_area;
+    padding: 2px;
+    justify-self: center;
+    zoom: 1;
+    column-width: auto;
+  }
+  .intro_text {
+    grid-area: intro_text_area;
+    justify-self: center;
+  
+  }
+
+}
+  
+
+  #custom_header {
+    column-gap: 20px;
+    grid-template-areas: 'dove_img_area intro_text_area';
+    color: white;
+    padding: 0;
+    img {align-content: center;}
+    h1 {font-size: 20px;}
+   /*  .dove_img { padding: 20px;} */
+      p {line-height: 1.2rem;} 
+      .intro_text {
+        justify-self: start;
+        position: relative;
+        align-self: center;
+        
+      }
+      .dove_img {
+        justify-self: end;
+        padding: 2px;
+        zoom: 1;
+      }
+      .dove_img img {
+        z-index: 100000;
+        position: relative;
+      }
+  }
+
+
+
+
