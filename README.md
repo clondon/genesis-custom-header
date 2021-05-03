@@ -1,1 +1,1 @@
-Custom heade for genesis sample file
+Custom header for genesis sample file
